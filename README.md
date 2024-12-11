@@ -154,9 +154,19 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/mDCxZv9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
-- Open the Control Panel and go to System and Security > Windows Defender Firewall.
+- Right click start menu then click on run > then type "fn.msc" > Windows Defender Firewall.
  <p>
-<img src="https://imgur.com/Z8mqmdF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/c57zA9t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+    <p>
+<img src="https://imgur.com/IahzJid.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>  
+
+    <p>
+<img src="https://imgur.com/l4L3EuB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
 - Select Turn Windows Defender Firewall on or off.
