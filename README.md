@@ -167,6 +167,19 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/l4L3EuB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
-- Select Turn Windows Defender Firewall on or off.
-- Disable the firewall for both Private and Public networks.
-- Save the settings. (Ensure this is temporary and re-enable the firewall after testing is complete.)
+- Select Turn Windows Defender Firewall Properties.
+   <p>
+<img src="https://imgur.com/nW9tCkk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>  
+- Make sure you you click on "Private Profile"
+  <p>
+<img src="https://imgur.com/yEu8Nfa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>  
+- Disable the firewall for both Private and Public networks. Save the settings. (Ensure this is temporary and re-enable the firewall after testing is complete.)
+ <p>
+<img src="https://imgur.com/9qRCXwR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>  
+    
