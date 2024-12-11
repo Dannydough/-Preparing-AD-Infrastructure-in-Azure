@@ -99,9 +99,15 @@ Deploy Client-1 in Azure
 - Username: labuser
 - Password: Cyberlab123!
 
-*  You must change the new virtual machine name to "client". You will need to repeat the 3rd step aka creating the virtual machine with the same everything incuding location, username, password, size, image, and etc.
+*  You must change the new virtual machine name to "client" & the os system aka the image which is "windows 10 pro). You will need to repeat the 3rd step aka creating the virtual machine with the same everything including location, username, password, size, image, and etc.
 
 <p>
 <img src="https://imgur.com/YY2JKji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+* The client-1 virtual machine is finished aka "DONE"
+<p>
+<img src="https://imgur.com/A9vwOVl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
