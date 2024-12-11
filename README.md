@@ -137,3 +137,28 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/MV9JhT2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+6) Log into the Domain Controller VM and Disable Windows Firewall (For Testing Connectivity)
+
+- Use Remote Desktop (RDP) to connect to the Domain Controller VM.
+<p>
+<img src="https://imgur.com/Z8mqmdF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Verify that you are on the correct vm which wil be "dc-1". You will be able to see the "Server Manager" as soon as you open the virtual machine as shown in the picture below. Make sure the virtual machine Operating System is "Windows 2022" as shown in the picture below.
+ <p>
+<img src="https://imgur.com/zKXbu1q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
+ <p>
+<img src="https://imgur.com/mDCxZv9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>  
+- Open the Control Panel and go to System and Security > Windows Defender Firewall.
+ <p>
+<img src="https://imgur.com/Z8mqmdF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>  
+- Select Turn Windows Defender Firewall on or off.
+- Disable the firewall for both Private and Public networks.
+- Save the settings. (Ensure this is temporary and re-enable the firewall after testing is complete.)
