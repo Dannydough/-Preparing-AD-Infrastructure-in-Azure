@@ -236,3 +236,18 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/WZfzswU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p> 
+   
+12) Run the ipconfig Command:
+
+Execute the following command to view the network configuration:
+- powershell
+- Copy code
+- ipconfig /all
+- Check the DNS Settings: 
+
+* Review the output to confirm that the DNS Server is set to DC-1’s Private IP Address.
+
+<p>
+<img src="https://imgur.com/jJYI0dI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
