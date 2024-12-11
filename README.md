@@ -105,6 +105,14 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/YY2JKji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+<p>
+<img src="https://imgur.com/1qeV9GM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+   
 * The client-1 virtual machine is finished aka "DONE"
 <p>
 <img src="https://imgur.com/A9vwOVl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
