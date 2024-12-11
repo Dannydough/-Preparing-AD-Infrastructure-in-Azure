@@ -31,3 +31,62 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <h2>Actions and Observations</h2>
+
+Deploy a Domain Controller in Azure
+
+1) Create a Resource Group
+
+
+
+* Name the resource group: active-directory-rg
+<p>
+<img src="https://imgur.com/6IlAVtN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+2) Set Up a Virtual Network and Subnet
+* Name the virtual network and subnet: active-directory-vnet
+<p>
+<img src="https://imgur.com/T1uauFU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+3) Provision the Domain Controller Virtual Machine
+   
+- Operating System: Windows Server 2022
+- VM Name: DC-1
+- Username: labuser
+- Password: Cyberlab123!
+
+* Once you name the virtual machine "dc-1" you would want to make sure the image is "Windows 2022" as seen in the image below.
+<p>
+<img src="https://imgur.com/xrI2oyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+* Try to make sure the vm size has at least 2 vcpus so that it runs fast. 
+<p>
+<img src="https://imgur.com/UMt2hg1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+* Input the username & password in the picture using the (username and password) that is given above.
+<p>
+<img src="https://imgur.com/AZz1Zgd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+* Make sure the virtual network and subnet is the one you just created aka "active-directory-vnet"
+<p>
+<img src="https://imgur.com/Kpfq7zS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+* Your virtual network is now "FINISHED" (Deployment Complete)
+<p>
+<img src="https://imgur.com/GLdsyiJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
