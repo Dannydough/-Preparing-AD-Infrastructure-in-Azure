@@ -159,13 +159,11 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/c57zA9t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-    <p>
+<p>
 <img src="https://imgur.com/IahzJid.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
-
-    <p>
+<p>
 <img src="https://imgur.com/l4L3EuB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
