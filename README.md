@@ -111,3 +111,21 @@ Deploy Client-1 in Azure
 </p>
 <p>
 
+5) Configure Domain Controller's NIC Private IP Address to Static
+
+- Locate the Network Interface (NIC) associated with the Domain Controller VM (DC-1).
+<p>
+<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+- Select IP Configurations under the NIC settings.
+<p>
+<img src="https://imgur.com/L6hrh06.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+- Click on the Private IP address and change the assignment from Dynamic to Static. Save the configuration to ensure the IP address remains fixed.
+<p>
+<img src="https://imgur.com/MV9JhT2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
