@@ -205,3 +205,34 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/Z7M8fqG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p> 
+
+9) Test Connectivity Between Client-1 and DC-1
+
+- Access Client-1: & Connect to the Client-1 VM via Remote Desktop (RDP):
+  
+ <p>
+<img src="https://imgur.com/yXBDZ8G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
+
+10) Ping DC-1’s Private IP Address:
+
+- Open the PowerShell on Client-1 and then execute the following command: ping (private ip address):
+
+ <p>
+<img src="https://imgur.com/31PQwOJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
+
+11) Verify the Results:
+
+- Confirm that the ping returns replies from DC-1’s Private IP address, indicating successful connectivity.
+- If the ping fails, check the following:
+- Verify the Private IP address of DC-1.
+- Ensure the Windows Firewall on DC-1 is disabled (if still in testing).
+- Confirm both VMs are within the same Virtual Network or properly connected through network peering.
+
+ <p>
+<img src="https://imgur.com/WZfzswU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
