@@ -183,3 +183,25 @@ Deploy Client-1 in Azure
 </p>
 <p>  
     
+7) Access the Network Interface (NIC) Settings of Client-1:
+
+- In the Azure portal, navigate to the Network Interface (NIC) of the Client-1 VM. Open the DNS Servers settings.
+
+ <p>
+<img src="https://imgur.com/uYfZlpV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
+
+8) Set the DNS Server to the Domain Controller's Private IP Address:
+
+-Select Custom for the DNS server configuration. Enter the Private IP Address of the Domain Controller (DC-1). Save the Configuration: Click Save to apply the DNS settings.
+
+ <p>
+<img src="https://imgur.com/reY2N7g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+ <p>
+<img src="https://imgur.com/Z7M8fqG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p> 
