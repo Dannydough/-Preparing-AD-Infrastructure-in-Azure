@@ -85,8 +85,22 @@ Deploy a Domain Controller in Azure
 </p>
 <p>
 
-* Your virtual network is now "FINISHED" (Deployment Complete)
+* Your virtual machine is now "FINISHED" (Deployment Complete)
 <p>
 <img src="https://imgur.com/GLdsyiJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Deploy Client-1 in Azure
+
+4) Provision the Client Virtual Machine
+
+- Operating System: Windows 10
+- VM Name: Client-1
+- Username: labuser
+- Password: Cyberlab123!
+
+* 
+<p>
+<img src="https://imgur.com/xrI2oyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
