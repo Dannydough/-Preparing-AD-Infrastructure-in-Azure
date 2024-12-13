@@ -225,7 +225,7 @@ In this project, I set up two Virtual Machines (VMs): one running Windows Server
    
 12) Run the ipconfig Command:
 
-Execute the following command to view the network configuration:
+- Execute the following command to view the network configuration:
 - powershell
 - Copy code
 - ipconfig /all
