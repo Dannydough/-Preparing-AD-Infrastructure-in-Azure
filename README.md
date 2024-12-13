@@ -31,14 +31,14 @@ Deploy a Domain Controller in Azure
 
 
 
-* Name the resource group: active-directory-rg
+- Name the resource group: active-directory-rg
 <p>
 <img src="https://imgur.com/6IlAVtN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 2) Set Up a Virtual Network and Subnet
-* Name the virtual network and subnet: active-directory-vnet
+- Name the virtual network and subnet: active-directory-vnet
 <p>
 <img src="https://imgur.com/T1uauFU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -51,39 +51,37 @@ Deploy a Domain Controller in Azure
 - Username: labuser
 - Password: Cyberlab123!
 
-* Once you name the virtual machine "dc-1" you would want to make sure the image is "Windows 2022" as seen in the image below.
+- Once you name the virtual machine "dc-1" you would want to make sure the image is "Windows 2022" as seen in the image below.
 <p>
 <img src="https://imgur.com/xrI2oyz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-
-* Try to make sure the vm size has at least 2 vcpus so that it runs fast. 
+- Try to make sure the vm size has at least 2 vcpus so that it runs fast. 
 <p>
 <img src="https://imgur.com/UMt2hg1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-
-* Input the username & password in the picture using the (username and password) that is given above.
+- Input the username & password in the picture using the (username and password) that is given above.
 <p>
 <img src="https://imgur.com/AZz1Zgd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-
-* Make sure the virtual network and subnet is the one you just created aka "active-directory-vnet"
+- Make sure the virtual network and subnet is the one you just created aka "active-directory-vnet"
 <p>
 <img src="https://imgur.com/Kpfq7zS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-* Your virtual machine is now "FINISHED" (Deployment Complete)
+ 
+- Your virtual machine is now "FINISHED" (Deployment Complete)
 <p>
 <img src="https://imgur.com/GLdsyiJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Deploy Client-1 in Azure
+ 
+**Deploy Client-1 in Azure**
 
 4) Provision the Client Virtual Machine
 
@@ -92,7 +90,7 @@ Deploy Client-1 in Azure
 - Username: labuser
 - Password: Cyberlab123!
 
-*  You must change the new virtual machine name to "client" & the os system aka the image which is "windows 10 pro). You will need to repeat the 3rd step aka creating the virtual machine with the same everything including location, username, password, size, image, and etc.
+- You must change the new virtual machine name to "client" & the os system aka the image which is "windows 10 pro). You will need to repeat the 3rd step aka creating the virtual machine with the same everything including location, username, password, size, image, and etc.
 
 <p>
 <img src="https://imgur.com/YY2JKji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -104,9 +102,7 @@ Deploy Client-1 in Azure
 </p>
 <p>
 
-
-   
-* The client-1 virtual machine is finished aka "DONE"
+- The client-1 virtual machine is finished aka "DONE"
 <p>
 <img src="https://imgur.com/A9vwOVl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -165,7 +161,7 @@ Deploy Client-1 in Azure
 <img src="https://imgur.com/nW9tCkk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>  
-- Make sure you you click on "Private Profile"
+- Make sure you click on "Private Profile"
   <p>
 <img src="https://imgur.com/yEu8Nfa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -236,9 +232,9 @@ Execute the following command to view the network configuration:
 - powershell
 - Copy code
 - ipconfig /all
-- Check the DNS Settings: 
+- Check the DNS Settings:
 
-* Review the output to confirm that the DNS Server is set to DC-1’s Private IP Address.
+- Review the output to confirm that the DNS Server is set to DC-1’s Private IP Address.
 
 <p>
 <img src="https://imgur.com/jJYI0dI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
