@@ -29,8 +29,6 @@ Deploy a Domain Controller in Azure
 
 1) Create a Resource Group
 
-
-
 - Name the resource group: active-directory-rg
 <p>
 <img src="https://imgur.com/6IlAVtN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -57,12 +55,11 @@ Deploy a Domain Controller in Azure
 </p>
 <p>
 
-- Try to make sure the vm size has at least 2 vcpus so that it runs fast. 
+- Try to make sure the vm size is at least 2 vcpus so that it runs fast. 
 <p>
 <img src="https://imgur.com/UMt2hg1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
 - Input the username & password in the picture using the (username and password) that is given above.
 <p>
 <img src="https://imgur.com/AZz1Zgd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -90,7 +87,7 @@ Deploy a Domain Controller in Azure
 - Username: labuser
 - Password: Cyberlab123!
 
-- You must change the new virtual machine name to "client" & the os system aka the image which is "windows 10 pro). You will need to repeat the 3rd step aka creating the virtual machine with the same everything including location, username, password, size, image, and etc.
+- You must change the new virtual machine name to "client" & the os system aka the image which is "windows 10 pro". You will need to repeat the 3rd step aka creating the virtual machine with the same everything including location, username, password, size, image, and etc.
 
 <p>
 <img src="https://imgur.com/YY2JKji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
