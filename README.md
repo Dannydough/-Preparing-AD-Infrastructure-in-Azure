@@ -25,7 +25,7 @@ In this project, I set up two Virtual Machines (VMs): one running Windows Server
 
 <h2>Project Walk-through:</h2>
 
-Deploy a Domain Controller in Azure
+**Deploy a Domain Controller in Azure**
 
 1) Create a Resource Group
 
