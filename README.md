@@ -21,7 +21,7 @@ In this project, I set up two Virtual Machines (VMs): one running Windows Server
 <h2>Operating Systems Used </h2>
 
 - <b>Windows Server </b>
-- <b>Windows 10</b>
+- <b>Windows 10 Pro</b>
 
 <h2>Project Walk-through:</h2>
 
